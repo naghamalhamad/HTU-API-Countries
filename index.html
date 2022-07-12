@@ -58,48 +58,5 @@
 
 
 </body>
-<!--    async function getdata(){
-    const response = await fetch('https://restcountries.com/v2/all');
-    const data = await response.json();
 
-
-    for(i=0;i<5;i++){
-     console.log(data[i].name);
-     console.log(data[i].region);
-     console.log(data[i].languages[0].name);
-
-    }
-    
-}
-getdata();
-
-
-
- fetch('https://restcountries.com/v2/all').then((data) =>{
-        return data.json();
-    }).then((completedata)=>{
-        let data1="";
-        completedata.map((values)=>{
-
-            data1+=` 
-            <div class="container">
-                <div id="card" class="card">
-            <img id="flag" src=${values.flag[0]}alt="flag">
-            <section class="content"></section>
-            <p id="name">${values.name}</p>
-            <p id="text">capital: <span id="capital">${values.capital}</span></p>
-            <p id="text">Language: <span id="Languages">${values.languages[0].name}</span></p>
-            <p id="text">Region: <span id="Region">${values.region}</span></p>
-        </section>
-        </div>
-        </div>`;
-        });
-
-       document.getElementById("card").innerHTML=data1;
-    
-    }
-    
-
-    );
--->
 </html>
