@@ -6,27 +6,36 @@ main{
     color: #ffffff;
     font-family: 'Nunito Sans', sans-serif;
 }
+.question{
+    padding: 10px 20px;
+    font-size: 20px;
+
+}
 .container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     margin: 10px;
+
     
 }
 .card{
     border:4px solid hsl(209, 23%, 22%);
     background-color: hsl(209, 23%, 22%);
-    width: 200px;
-    height:300px;
-    padding: 10px;
+    width: 250px;
+    height:330px;
+    padding:0;
     color: #ffffff;
     justify-content: space-evenly;
     margin: 25px;
+    box-shadow:  0 -12px 15px -2px rgb(0 0 0 / 20%);
+    
 
 }
 #flag{
-    width: 200px;
+    width:250px;
+   height:150px;
 
 }
 #name{
@@ -35,19 +44,20 @@ main{
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 600;
     padding-left: 10px;
-    
+    padding:0 20px ;
+
 
 }
 
-#text{
+#text,#languages{
   letter-spacing: 0.5px;
   width: 200px;
-  line-height: 7px;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 14px;
-
-
-
+  padding:0 20px ;
+  line-height:5px;
   
-  
+}
+#languages{
+    line-height: 20px;
 }
